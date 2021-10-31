@@ -1,19 +1,31 @@
 .header{
+    align-items: center;
+   display: flex;
     background-color: aqua;
+    height: 155px;
    
 }
 .header-name{
+    margin: 0px;
+    padding: 10px 10px;
     color: black;
     font-size: 90px;
+    
+
 }
-.header-list{
-    float: left;
-    list-style: none;
-    color: black;
+.header-list {
+    padding-left: 40px;
+    display: block;
+    justify-content: center;
+    color: fuchsia;
     font-size: 40px;
+}
+li {
+    list-style: none;
 }
 
 .main{
+    font-size: 30px;
     background-color: blanchedalmond;
 }
 .footer{
@@ -21,14 +33,3 @@
 }
 
 
-.head {
-    font-size: 40px;
-    color:aliceblue;
-    background-color: blue;
-}
-.link {
-    font-size: 20px;
-color: darkorchid;
-background-color: cadetblue;
-
-}
