@@ -1,4 +1,25 @@
-.header {
+.header{
+    background-color: aqua;
+}
+.header-name{
+    color: black;
+    font-size: 90px;
+}
+.header-list{
+    float: left;
+    list-style: none;
+    color: black;
+    font-size: 40px;
+}
+.main{
+    background-color: blanchedalmond;
+}
+.footer{
+    background-color: darkturquoise;
+}
+
+
+.head {
     font-size: 40px;
     color:aliceblue;
     background-color: blue;
